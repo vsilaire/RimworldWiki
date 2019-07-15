@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Basics and Concepts">
+            <menu>
+                <item
+                    android:id="@+id/nav_basics"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Basics" />
+                <item
+                    android:id="@+id/nav_menus"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Menus" />
+                <item
+                    android:id="@+id/nav_character_properties"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Character Properties" />
+                <item
+                    android:id="@+id/nav_game_creation"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Game Creation" />
+                <item
+                    android:id="@+id/nav_gameplay"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Gameplay" />
+                <item
+                    android:id="@+id/nav_mods"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Mods" />
+            </menu>
+        </item>
+
+        <item android:title="Game Objects">
+            <menu>
+                <item
+                    android:id="@+id/nav_architect"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Architect" />
+                <item
+                    android:id="@+id/nav_plants"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Plants" />
+                <item
+                    android:id="@+id/nav_character_types"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Character Types" />
+                <item
+                    android:id="@+id/nav_resources"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Resources" />
+                <item
+                    android:id="@+id/nav_gear"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="Gear" />
+            </menu>
+        </item>
+
+        <item
+            android:id="@+id/nav_pawns"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Pawns" />
+
+    </group>
+
+</menu>
